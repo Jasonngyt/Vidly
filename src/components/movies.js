@@ -6,7 +6,7 @@ import Like from './common/like';
 class Movies extends Component {
   state = {
     movies: getMovies(),
-    pageSize: 4,
+    pageSize: 10,
   };
 
   handleDelete = (movie) => {
